@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  become: true
+  tasks:
+
+  - name: installeer apache2 package
+    apt:
+      name: apache2
